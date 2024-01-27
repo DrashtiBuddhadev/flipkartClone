@@ -1,6 +1,7 @@
  * {
     margin: 0;
     padding: 0;
+    font-family:'Poppins', sans-serifs;
     /* background-color: #E0E0E0; */
 }
 body{
@@ -164,4 +165,98 @@ body{
     position:relative;
     z-index: 5;
 
+}
+
+.paras h2{
+    font-size: 12px;
+   
+}
+/* Overall footer styles */
+footer {
+    background-color: #E0E0E0; /* Adjust as needed */
+    color: #474747; /* Adjust as needed */
+    padding: 0px 0px; /* Adjust as needed */
+    font-size: 11px; /* Adjust as needed */
+    text-align: left; /* Adjust as needed */
+    
+}
+.footer_1{
+    padding: 20px 20px;
+}
+
+
+
+/* Footer sections */
+.footer_2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start; /* Align items to the top */
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    padding: 20px;/* Add padding for spacing */
+}
+
+.social{
+    padding-right: 0px;
+}
+
+
+.footer_2 > div {
+    width: 18%; /* Adjust width as needed */
+}
+
+.mail-office {
+    display: flex;
+    flex-direction: column;
+}
+
+.registered-office {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Links */
+.footer_2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.line-between {
+    border-bottom: 2px solid #474747; /* Adjust color and thickness as needed */
+}
+
+ .vertical-line-between{
+    border-left: 1.5px solid #474747;
+    height: 100px;
+    padding-right: 10px;
+} 
+
+
+.footer_3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 20px 20px; /* Adjust as needed */
+}
+
+.footer_3 img {
+    margin-right: 5px; /* Adjust as needed */
+}
+
+.footer_3 span{
+    color: white;
+}
+
+.footer_3 a {
+    color: #333; /* Adjust as needed */
+    text-decoration: none;
+}
+
+.heads{
+    color: #B1B6A6;
+    letter-spacing: 0.1rem;
 }
